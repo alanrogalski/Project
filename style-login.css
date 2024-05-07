@@ -28,22 +28,6 @@ header {
     padding: 16px;
   }
   
-  .header-middle-side a {
-    text-decoration: none;
-    color: white;
-    display: inline-block;
-    transition: transform 0.3s ease;
-  }
-  
-  .header-middle-side a:hover {
-    text-decoration: none;
-    color: rgb(182, 181, 181);
-    transform: scale(1.05);
-  }
-
-a:hover {
-  text-decoration: none;
-}
 .link {
   color: #ffffff;
 }
