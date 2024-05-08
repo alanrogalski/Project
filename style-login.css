@@ -15,19 +15,52 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-}  
+}
+
+.st0 {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
 header {
   display: flex;
   font-size: 0px;
-  justify-content: center;
+  justify-content: space-between;
   letter-spacing: 10px;
 }
 
-  .header-middle-side h1 {
-    font-size: 65px;
-    padding: 16px;
-  }
-  
+.header-left-side {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-left: 24px;
+}
+
+.header-left-side a {
+  color: white;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.header-left-side a:hover {
+  text-decoration: none;
+  color: rgb(182, 181, 181);
+  transform: scale(1.2);
+}
+
+.header-middle-side h1 {
+  font-size: 65px;
+  padding: 16px;
+}
+
+.header-right-side {
+
+}
+
 .link {
   color: #ffffff;
 }
